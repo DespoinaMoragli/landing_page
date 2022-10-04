@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h3>purrfect coffee</h3>
+        <a href="#">About us</a>
+        <a href="#">Menu</a>
+        <a href="#">Locations</a>
+    </div>
+    <div class="first">
+        <div class="text">
+            <h1>Welcome to PURRFECT COFFEE! </h1>
+            <p>We are a cat cafe for all ages!<br>
+             come enjoy a nice warm cup of liquid or a piece of cake while petting one our many cats!
+             Don't forget! All our cats are up for adoption!   
+            </p>
+            <button type="button" class="button">Support our goal!</button>
+        </div>    
+        <img class="cat" src="https://images.pexels.com/photos/8776859/pexels-photo-8776859.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+    <div class="second">
+        <h2>Our residents</h2>
+        <div class="cats">
+            <div class="cats">
+                <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p>Molly</p>
+            </div>
+            <div class="cats">
+                <img src=https://images.pexels.com/photos/991831/pexels-photo-991831.jpeg?auto=compress&cs=tinysrgb&w=600>
+                Bingo</p>
+            </div>
+            <div class="cats">
+                <img src="https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p>Chad</p>
+            </div>
+            <div class="cats">
+                <img src="https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <p>Baby Trout</p> 
+        </div>    
+    </div>
+    <div class="third">
+        <p class="quote">
+            The service was great!
+            The food was very tasty. My family and I had great day!
+            Definitely recommend it for other cat lovers!
+        </p>
+        <p class="person">-Mary Louise Triathlon,49</p>
+    </div>
+    <div class="Last">
+        <div class="text">
+        <h4>Support us any time!</h4>
+        <p>Donate a small fee to help feed all the residents</p>
+ </div>
+        <button type="button" class="sign">Support</button>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; purrfect coffee</p>
+    </div>
+    <style>
+        .header {
+    display: flex;
+    background-color:pink;
+    align-items:flex-end;
+    text-align:justify;
+}    
+.first {
+    background-color: whitesmoke;
+    display: flex;
+   height: 15cm;
+    gap: 100px;
+    flex: 1;
+}  
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 20cm;
+}  
+.third {
+    background-color:whitesmoke;
+    display: flex;
+    min-height:10cm;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.5cm ;
+    flex-direction: column;
+}
+.Last {
+    display: flex;
+    justify-content: space-between;
+    background-color:burlywood;
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+}
+.footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+
+}
+.button {
+    align-self: flex-start;
+    background-color:pink;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+.button:hover {
+    background-color:white;
+    color:pink;
+}
+.cats {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cats img {
+    border: none;
+   width: 5cm;
+   height:10cm;
+    flex: 2;
+}
+.sign {
+    background-color:burlywood;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+.sign:hover {
+    background-color: white;
+    color:burlywood;
+}
+</style>
+
+</body>
+</html>
